@@ -40,10 +40,10 @@
   transition: 0.5s;
 }
 .letters:hover {
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 /* Add rules for steps 10 and 11 */
-.letters:hover > p:nth-child(even) {
+.letters:hover > p:nth-child(odd) {
   transform: rotateX(360deg);
   transition: 1.5s;
 }
